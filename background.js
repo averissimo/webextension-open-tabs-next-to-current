@@ -66,7 +66,7 @@ function fixListeners() {
 }
 
 function moveTab(newTab) {
-    if (!currentTabId) {
+    if (!currentTabId || !!newTab.openerTabId) {
         return;
     }
 
