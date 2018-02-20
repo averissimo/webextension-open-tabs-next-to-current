@@ -1,9 +1,12 @@
 [![Build Status](https://travis-ci.org/averissimo/webextension-open-tabs-next-to-current.svg?branch=master)](https://travis-ci.org/averissimo/webextension-open-tabs-next-to-current)
 
+
+**Reason for fork:** This only applies to blank tabs that do not have an opener parent tab (i.e. won't apply to `open link in new tab` and such)
+
+*please report all tickets to parent repository https://github.com/sblask/webextension-open-tabs-next-to-current/issues .*
+
 Open Tabs Next To Current
 =========================
-
-FORK: This only applies to blank tabs that do not have an opener parent tab (i.e. won't apply to `open link in new tab` and such)
 
 Open tabs that would normally be opened last next to the current one. Tabs that
 are being re-opened are thus not included.  You can use `Ctrl-Y`
